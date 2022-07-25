@@ -1,7 +1,6 @@
 # DRL-Base-EMS
 DRL-Base-EMS for HEVs
 
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -11,31 +10,42 @@ The Vehicle Env is OpenAI-Gym like Env, so it needs to work with Gym Env files.
   ```sh
   $ pip install gym
   ```
-  More information about Gym Env can find at [https://example.com](https://github.com/openai/gym)
+  More information about Gym Env can find at [https://github.com/openai/gym](https://github.com/openai/gym)
 
-The Algorithms library Tianshou is currently hosted on PyPI and conda-forge. It requires Python >= 3.6.
+The Algorithms library from Tianshou is currently hosted on PyPI and conda-forge. It requires Python >= 3.6.
 
 * You can simply install Tianshou from PyPI with the following command:
   ```sh
   $ pip install tianshou
   ```
+  More information about Tianshou library can find at [https://github.com/thu-ml/tianshou](https://github.com/thu-ml/tianshou)
 
-### Installation
+### Setup
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+1. Get ready with Gym Env and Tianshou library
+2. Download the `Vehicle_Env` file under `DRL-Base-EMS`
+3. Open the Gym Env file in your workspace with suffix like `\gym\envs\`
+4. Add the `\DRL-Base-EMS\Vehicle_Env\classic_control\Vehicle` file to `\gym\envs\classic_control\`
+5. Change the content of the `\gym\envs\classic_control\__init__.py` and `\gym\envs\__init__.py` by the instruction in `\DRL-Base-EMS\Vehicle_Env\__init__.py`
+6. Now, you can try the different DRL Algorithms.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+## Acknowledgement
+We acknowledge the following repositories that greatly shaped our implementation:
+- https://github.com/thu-ml/tianshou for providing popular DRL Algorithms in PyTorch and operating guide. 
+Please cite their work if you also find their code useful to your project:
+```
+@article{tianshou,
+  title={Tianshou: A Highly Modularized Deep Reinforcement Learning Library},
+  author={Weng, Jiayi and Chen, Huayu and Yan, Dong and You, Kaichao and Duburcq, Alexis and Zhang, Minghao and Su, Hang and Zhu, Jun},
+  journal={arXiv preprint arXiv:2107.14171},
+  year={2021}
+}
+```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+## Citation
+If you find our code useful to your work, please consider citing our paper:
+```
+```
+
+## Contact
+If you have any questions, please create an issue in this repository or contact Hanchen Wang (haw110@ou.edu)
