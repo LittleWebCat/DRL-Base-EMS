@@ -27,7 +27,7 @@ The Algorithms library from Tianshou is currently hosted on PyPI and conda-forge
 3. Open the Gym Env file in your workspace with suffix like `\gym\envs\`
 4. Add all three content of `\DRL-Base-EMS\Vehicle_Env\classic_control\` to `\gym\envs\classic_control\`
 5. Change the content of the `\gym\envs\classic_control\__init__.py` and `\gym\envs\__init__.py` by the instruction in `\DRL-Base-EMS\Vehicle_Env\__init__.py`
-6. Now, you can try the different DRL Algorithms.
+6. Now, you can try the different DRL Algorithms in your workspace.
 
 ## Acknowledgement
 We acknowledge the following repositories that greatly shaped our implementation:
