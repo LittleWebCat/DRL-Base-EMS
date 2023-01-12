@@ -45,6 +45,12 @@ Please cite their work if you also find their code useful to your project:
 ## Citation
 If you find our code useful to your work, please consider citing our paper:
 ```
+@article{DRL-EMS,
+  title={A comparative study of 13 deep reinforcement learning based energy management methods for a hybrid electric vehicle},
+  author={Hanchen Wang, Bin Xu, Yiming Ye, Jiangfeng Zang},
+  journal={https://www.sciencedirect.com/science/article/pii/S0360544222033837},
+  year={2022}
+}
 ```
 
 ## Contact
